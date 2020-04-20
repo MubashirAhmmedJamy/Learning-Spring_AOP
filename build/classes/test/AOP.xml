@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context 
+  http://www.springframework.org/schema/context/spring-context.xsd 
+  http://www.springframework.org/schema/aop 
+  http://www.springframework.org/schema/aop/spring-aop.xsd">
+    
+    <bean id="manager" class="model.Manager">
+        <property name="name" value="Manager Name"/>
+    </bean>
+    
+    <bean id="accountant" class="model.Accountant">
+        <property name="name" value="Accountant Name"/>
+    </bean>
+    
+    <bean id="shopKeeper" class="model.ShopKeeper">
+        <property name="name" value="ShopKeeper Name"/>    
+    </bean>
+    
+    <bean id="empservice" class="service.EmpService" autowire="byName">
+        
+    </bean>
+    
+    <context:component-scan base-package="aspect"/>
+    <aop:aspectj-autoproxy/>
+    
+</beans>
