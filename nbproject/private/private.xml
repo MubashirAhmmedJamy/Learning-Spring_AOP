@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/test/Test.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/test/AfterAdviceTest.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/aspect/AfterAdviceAspect.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/aspect/Logger.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/aspect/EmpAspect.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/aspect/AroundAdviceAspect.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/service/EmpService.java</file>
-            <file>file:/G:/Programming/2.My%20Programs/Java/Spring_AOP/src/test/AroundAdviceTest.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
