@@ -23,8 +23,6 @@ public class ShopKeeper {
     public void setIncome(int income) {
         this.income = income;
         System.out.println("setIncome throwing");
-        throw (new RuntimeException("This exception is plotted and thrown from setIncome"));
+//        throw (new RuntimeException("This exception is plotted and thrown from setIncome"));
     }
-    
-           
 }

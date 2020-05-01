@@ -29,7 +29,7 @@ public class EmpAspect {
     
     @Before("allGetters()")
     public void two(JoinPoint join){
-        System.out.println("Before - Advice two allGetters: method = "+join.toString()+" | class = "+join.getTarget().getClass());
+        System.out.println("Before - Advice two all-Getters: method = "+join.toString()+" | class = "+join.getTarget().getClass());
     }
     
     @Before("args(name)")

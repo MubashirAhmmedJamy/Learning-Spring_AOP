@@ -26,7 +26,8 @@
         
     </bean>
     
+    <context:annotation-config />
     <context:component-scan base-package="aspect"/>
-    <aop:aspectj-autoproxy/>
+    <aop:aspectj-autoproxy />
     
 </beans>

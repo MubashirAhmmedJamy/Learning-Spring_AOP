@@ -6,7 +6,7 @@ public class Accountant {
 
     public int getScore() {
         System.out.println("getScore method throwing exceoption from accountant.");
-        throw (new RuntimeException("This Exception was plotted"));
+        throw (new RuntimeException("This Exception was plotted"));  
 //        return score;
     }
 
